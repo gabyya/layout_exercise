@@ -1,0 +1,40 @@
+body {
+	margin: 0 auto;
+	font-family: arial ;
+}
+
+.head {
+	background-color: red;
+	text-align: center;
+	color: white;
+	margin: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.column {
+    float: left;
+    width: 30%;
+}
+
+.row {
+	padding-left: 200px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.body h3 {
+	margin: 0 auto;
+	padding-right: 190px;
+	padding-left: 190px;
+}
+
+.table {
+    margin: auto;
+    padding: 50px;
+}
